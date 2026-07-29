@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BODY_ZONES } from '../data/Zones';
+import { BODY_ZONES, BodyZone } from '../data/Zones';
 import SideDrawer from './SideDrawer';
 
 const BodyMap: React.FC = () => {
