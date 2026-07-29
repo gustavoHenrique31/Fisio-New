@@ -6,8 +6,7 @@ const BodyMap: React.FC = () => {
   const [selectedZone, setSelectedZone] = useState<string | null>(null);
   const [hoveredZone, setHoveredZone] = useState<string | null>(null);
 
-  const selectedZoneData = BODY_ZONES.find(z => z.id === selectedZone);
-
+  const selectedZoneData = BODY_ZONES.find((z: BodyZone) => z.id === selectedZone);
   return (
     <section id="body-map" className="relative py-16 px-5 sm:px-8 md:px-16 lg:px-20 bg-black/95">
       <div className="max-w-7xl mx-auto">
