@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { X, MessageCircle, Play } from 'lucide-react';
-import { BodyZone } from '../data/zones';
+import { BodyZone } from '../data/Zones';
 
 // CONFIGURÁVEL: Número do WhatsApp do especialista
 const WHATSAPP_NUMBER = "5511999999999"; // PLACEHOLDER - Substituir com número real
