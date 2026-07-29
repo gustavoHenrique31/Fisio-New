@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, CircleUserRound, MessageCircle } from 'lucide-react';
+import { Menu, X, UserCircle, MessageCircle } from 'lucide-react';
 
 const Navigation: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
