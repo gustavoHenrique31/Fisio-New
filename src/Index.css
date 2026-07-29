@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@Tailwind base;
+@Tailwind components;
+@Tailwind utilities;
 
 @layer base {
   * {
